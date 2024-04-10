@@ -1,0 +1,116 @@
+/* I'm glad you're checking my css code! 
+I hope it's easy to understand, mantainable, and scalable
+I appreciate any suggestions😀 */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 300;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+
+}
+button,p {
+  font-family: "Lexend Deca", sans-serif;
+}
+/* Responsiveness */
+@media (max-width:900px) {
+    .inner-container{
+        /* I estimated this space */
+        margin: 80px auto;
+
+    }
+    .item{
+        grid-column: span 3;
+    }
+    .inner-container>.item.sedans{
+        border-radius: 10px 10px 0px 0px;
+
+    }
+    .inner-container>.item.luxury{
+        border-radius: 0px 0px 10px 10px;
+
+    }
+}
+/* Layout with Flex and Grid Together */
+.outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex: 1;
+  position: relative;
+}
+.inner-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+.item {
+  padding: 48px;
+}
+.item > p {
+  max-width: 199px;
+  /* To avoid the text stretching to the right */
+}
+.item.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+.item.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+.item.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+.item > button {
+  width: 146px;
+  height: 46px;
+  border: none;
+  border-radius: 22px;
+  text-align: center;
+  margin-top: 80px;
+  background-color: hsl(0, 0%, 95%);
+  font-weight: 400;
+}
+/* This part below is certainly repetitive(DRY)🥲 and needs improvement
+I will have to learn Sass  */
+.sedans-button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+   
+}
+.suvs-button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.luxury-button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer; 
+}
+
+/* Footer Section */
+.my-footer{
+    position: absolute;
+    text-align: center;
+    margin-bottom: 20px;
+    bottom: 0;
+}
