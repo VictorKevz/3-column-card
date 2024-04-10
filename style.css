@@ -13,6 +13,7 @@ h2 {
 }
 h2{
     font-weight: 700;
+    font-size: 2em;
 }
 p{
     font-weight: 300;
@@ -123,6 +124,6 @@ I will have to learn Sass  */
 .my-footer{
     position: absolute;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     bottom: 0;
 }
