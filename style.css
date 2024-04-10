@@ -7,11 +7,11 @@ body {
   box-sizing: border-box;
   padding: 0;
 }
-h1 {
+h2 {
   font-family: "Big Shoulders Display", sans-serif;
   color: hsl(0, 0%, 95%);
 }
-h1{
+h2{
     font-weight: 700;
 }
 p{
@@ -23,6 +23,9 @@ p{
 }
 button,p {
   font-family: "Lexend Deca", sans-serif;
+}
+button{
+    font-weight: 400;
 }
 /* Responsiveness */
 @media (max-width:900px) {
@@ -84,6 +87,15 @@ button,p {
   margin-top: 80px;
   background-color: hsl(0, 0%, 95%);
   font-weight: 400;
+}
+.sedans-button{
+    color: hsl(31, 77%, 52%);
+}
+.suvs-button{
+    color: hsl(184, 100%, 22%);
+}
+.luxury-button{
+    color: hsl(179, 100%, 13%)
 }
 /* This part below is certainly repetitive(DRY)🥲 and needs improvement
 I will have to learn Sass  */

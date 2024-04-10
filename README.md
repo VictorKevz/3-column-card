@@ -38,11 +38,11 @@ To build this project, I followed these steps:
 
 ## Deployment
 
-The project can be deployed using various hosting platforms such as GitHub Pages, Vercel, or Netlify. I've chosen [GitHub Pages](https://pages.github.com/) for hosting my project. You can view the live version [here](#insert-live-url).
+The project can be deployed using various hosting platforms such as GitHub Pages, Vercel, or Netlify. I've chosen [GitHub Pages](https://pages.github.com/) for hosting my project. You can view the live version [here](https://victorkevz.github.io/3-column-card/).
 
 ## Sharing My Solution
 
-I've shared my solution on the Frontend Mentor platform for the community to see and provide feedback. You can find my solution [here](#insert-solution-url).
+I've shared my solution on the Frontend Mentor platform for the community to see and provide feedback. You can find my solution [here](https://www.frontendmentor.io/solutions/responsive-3column-card-component-flexbox-css-grid-iMZfloeX4z).
 
 Additionally, I've shared my solution on social media platforms like Twitter and LinkedIn to showcase my work and connect with other developers.
 
